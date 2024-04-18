@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FetchAPI</title>
+</head>
+<body class="bg-slate-300">
+    <div class="flex items-center justify-center">
+        <div class="flex flex-col md:flex-row w-full md:w-2/4 gap-y-2 gap-x-4 items-center justify-center p-5">
+                <button id="getPost" class="bg-green-600 p-2 font-semibold px-5 rounded-md w-full  text-gray-200 hover:text-white hover:bg-slate-600">GET</button>
+                <button id="createPost" class="bg-blue-700 p-2 font-semibold px-5 rounded-md w-full  text-gray-200 hover:text-white hover:bg-slate-600">CREATE</button>
+                <button id="updatePost" class="bg-blue-400 p-2 font-semibold px-5 rounded-md w-full  text-gray-200 hover:text-white hover:bg-slate-600">PUT</button>
+                <button id="patchPost" class="bg-yellow-600 p-2 font-semibold px-5 rounded-md w-full  text-gray-200 hover:text-white hover:bg-slate-600">PATCH</button>
+                <button id="deletePost" class="bg-red-700 p-2 font-semibold px-5 rounded-md w-full  text-gray-200 hover:text-white hover:bg-slate-600">DELETE</button>
+        </div>
+    </div>
+    <div class="flex items-center justify-center">
+        <div id="table" class="flex items-center justify-center">
+        </div>
+    </div>
+</body>
+<script src="fetchAPI.js"></script>
+</html>
